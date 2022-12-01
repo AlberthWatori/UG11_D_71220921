@@ -7,4 +7,4 @@ def cekhuruf () :
     else :
         print("huruf paling ujung pada kata",kata,"adalah",(kata[:3]))
     return (kata)
-cetakHuruf()
+cekhuruf()
