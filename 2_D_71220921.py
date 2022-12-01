@@ -3,8 +3,8 @@ def cekhuruf () :
     list=(kata)
     len(kata)
     if(len(kata)%2==0) :
-        print("huruf ujung pada kata",kata, "adalah",(kata{-3:}))
+        print("huruf ujung pada kata",kata, "adalah",(kata[-3:]))
     else :
-        print("huruf paling ujung pada kata",kata,"adalah",(kata{:3}))
+        print("huruf paling ujung pada kata",kata,"adalah",(kata[:3]))
     return (kata)
 cetakHuruf()
